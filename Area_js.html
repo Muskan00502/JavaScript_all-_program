@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Calculations</title>
+</head>
+<body>
+    <script>
+        let length = parseFloat(prompt("Enter length: "));
+        let width = parseFloat(prompt("Enter width: "));
+
+        let perimeter = 2 * (length + width); // Fixed syntax: "=" was missing
+        let area = length * width;           // Fixed syntax: "=" was missing
+
+        console.log("Perimeter:", perimeter);
+        console.log("Area:", area);
+
+        console.log("Is perimeter greater than area?", perimeter > area);
+    </script>
+</body>
+</html>
